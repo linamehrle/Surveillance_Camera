@@ -1,5 +1,5 @@
 /*********
-  Rui Santos
+  Inspired by Rui Santos
   Complete project details at https://RandomNerdTutorials.com/esp32-cam-ov2640-camera-settings/
 *********/
 
@@ -49,6 +49,7 @@ void setup() {
   Serial.print("Initializing the MicroSD card module... ");
   initMicroSDCard();
 
+  // Signal from Arduino
   pinMode(GPIO_NUM_1, INPUT);
 }
 
